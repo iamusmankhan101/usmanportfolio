@@ -1,0 +1,17 @@
+.about {
+  background: transparent;
+  padding: 80px 20px;
+  width: 100%;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
