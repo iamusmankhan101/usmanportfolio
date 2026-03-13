@@ -1,7 +1,7 @@
 .hero {
   min-height: 100vh;
-  background: #f5f5f5;
-  color: #333;
+  background: #FFF8DE;
+  color: #1C0770;
   padding: 0;
   position: relative;
   display: flex;
@@ -9,6 +9,7 @@
   justify-content: center;
   padding-top: 80px; /* Account for fixed header */
 }
+
 
 .hero-container {
   max-width: 1200px;
@@ -22,21 +23,21 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(76, 175, 80, 0.1);
-  color: #4caf50;
+  background: #bf46461a;
+  color: #BF4646;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-bottom: 3rem;
-  border: 1px solid rgba(76, 175, 80, 0.2);
+  border: 1px solid rgba(28, 7, 112, 0.2);
 }
 
 .status-dot {
   width: 8px;
   height: 8px;
-  background: #4caf50;
+  background: #BF4646;
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
@@ -64,6 +65,7 @@
   letter-spacing: 2px;
   margin-bottom: 2rem;
   color: #666;
+  font-family: 'DM Serif Display', serif;
 }
 
 .tagline-text {
@@ -73,7 +75,7 @@
 .tagline-dreams {
   color: #ff6b35;
   font-style: italic;
-  font-family: 'Georgia', serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 .hero-name {
@@ -85,8 +87,8 @@
   font-weight: 400;
   margin: 0;
   line-height: 0.9;
-  color: #333;
-  font-family: 'Georgia', serif;
+  color: #000000;
+  font-family: 'DM Serif Display', serif;
 }
 
 .name-last {
@@ -94,8 +96,8 @@
   font-weight: 400;
   margin: 0;
   line-height: 0.9;
-  color: #ff6b35;
-  font-family: 'Georgia', serif;
+  color: #BF4646;
+  font-family: 'DM Serif Display', serif;
   font-style: italic;
   margin-top: -0.5rem;
 }
@@ -118,10 +120,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  z-index: 10;
+  position: relative;
 }
 
 .btn-primary {
-  background: #ff6b35;
+  background: #BF4646;
   color: white;
   border: none;
   padding: 1rem 2.5rem;
@@ -130,30 +134,33 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 4px 15px rgba(191, 70, 70, 0.3);
+  outline: none;
 }
 
 .btn-primary:hover {
-  background: #e55a2b;
+  background: #a33d3d;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 6px 20px rgba(191, 70, 70, 0.4);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #666;
-  border: 2px solid #ddd;
+  color: #BF4646;
+  border: 2px solid #BF4646;
   padding: 1rem 2.5rem;
   border-radius: 50px;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+  outline: none;
 }
 
 .btn-secondary:hover {
-  border-color: #ff6b35;
-  color: #ff6b35;
+  border-color: #BF4646;
+  background: #BF4646;
+  color: white;
   transform: translateY(-2px);
 }
 

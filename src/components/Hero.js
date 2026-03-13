@@ -8,17 +8,11 @@ function Hero() {
         {/* Status Badge */}
         <div className="status-badge">
           <span className="status-dot"></span>
-          AVAILABLE FOR WORK — WORLDWIDE
+          AVAILABLE FOR WORK
         </div>
 
         {/* Main Content */}
         <div className="hero-content">
-          <div className="hero-tagline">
-            <span className="tagline-text">I MAKE YOUR </span>
-            <span className="tagline-dreams">dreams</span>
-            <span className="tagline-text"> COME TRUE</span>
-          </div>
-
           <div className="hero-name">
             <h1 className="name-first">Usman</h1>
             <h1 className="name-last">Khan</h1>
@@ -26,9 +20,7 @@ function Hero() {
 
           <div className="hero-description">
             <p>
-              Full-stack developer, React specialist, and WordPress expert with 3+ years 
-              shipping real products. Two live platforms. 500+ users. Built from 
-              scratch — solo.
+              I bridge the gap between a raw idea and a scalable full-stack system. Whether you need a sophisticated React app or an AI-driven engine, I handle the heavy lifting of architecture, security, and deployment so you can focus on growth.
             </p>
           </div>
 

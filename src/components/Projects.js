@@ -64,7 +64,7 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="projects-header">
         <h2 className="projects-title">
-          MY<br />PROJECTS
+          My<br />projects
         </h2>
         <p className="projects-subtitle">
           A showcase of web development projects built with<br />

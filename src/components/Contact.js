@@ -1,33 +1,37 @@
 import React from 'react';
 import './Contact.css';
-import { Mail, Github, MessageCircle, Linkedin, Globe, Code } from 'lucide-react';
+import { Mail, Github, Globe, Phone } from 'lucide-react';
 
 function Contact() {
   return (
     <section id="contact" className="contact">
-      <div className="contact-divider"></div>
+      <div className="contact-container">
+        <div className="contact-content">
+          <h2 className="contact-title">
+            Let's build<br />
+            something <span className="contact-highlight">great</span>
+          </h2>
+          
+          <p className="contact-description">
+            From initial architecture to final deployment, I engineer complete, enterprise-ready systems. If your project requires React expertise, full-stack depth, or AI capabilities, I’m here to lead the build. Drop me a message to start the conversation.
+          </p>
+          
+          <div className="contact-buttons">
+            <a href="mailto:iamusmankhan101@gmail.com" className="contact-btn">
+              <Mail size={18} />
+              Email Me
+            </a>
+            <a href="https://github.com/iamusmankhan101/" className="contact-btn">
+              <Github size={18} />
+              GitHub
+            </a>
       
-      <h2 className="contact-title">Contact me</h2>
-      
-      <div className="contact-icons">
-        <a href="mailto:usman@example.com" className="contact-icon" title="Email">
-          <Mail size={24} />
-        </a>
-        <a href="https://github.com" className="contact-icon" title="GitHub">
-          <Github size={24} />
-        </a>
-        <a href="https://linkedin.com" className="contact-icon" title="LinkedIn">
-          <Linkedin size={24} />
-        </a>
-        <a href="https://wa.me/" className="contact-icon" title="WhatsApp">
-          <MessageCircle size={24} />
-        </a>
-        <a href="https://portfolio.com" className="contact-icon" title="Portfolio">
-          <Globe size={24} />
-        </a>
-        <a href="https://codepen.io" className="contact-icon" title="CodePen">
-          <Code size={24} />
-        </a>
+            <a href="tel:+923058562523" className="contact-btn">
+              <Phone size={18} />
+              Call
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
