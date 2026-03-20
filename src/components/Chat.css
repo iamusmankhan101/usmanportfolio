@@ -156,3 +156,36 @@
     padding: 0 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .chat {
+    padding: 40px 20px 100px;
+    min-height: 80vh;
+  }
+
+  .connect-btn {
+    font-size: 32px;
+    padding: 20px 48px;
+    border-radius: 28px;
+    outline-width: 4px;
+    box-shadow: 0 7px 0 #000, 0 9px 14px rgba(0,0,0,0.3);
+  }
+
+  .chat-hint {
+    font-size: 16px;
+  }
+
+  .chat-footer {
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 20px;
+    padding: 16px 20px;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+  }
+
+  .chat-socials {
+    justify-content: center;
+  }
+}
