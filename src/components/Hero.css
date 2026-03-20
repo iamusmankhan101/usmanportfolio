@@ -128,15 +128,25 @@
 
 @media (max-width: 768px) {
   .hero-content {
+    position: relative;
     text-align: center;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .hero {
+    justify-content: center;
+    align-items: center;
   }
 
   .hero-tagline {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .hero-name {
-    font-size: clamp(60px, 18vw, 100px);
+    font-size: clamp(42px, 14vw, 72px);
   }
 }
