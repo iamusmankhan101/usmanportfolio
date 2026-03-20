@@ -142,8 +142,14 @@
     align-items: center;
   }
 
+  .hero {
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+  }
+
   .hero-tagline {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .hero-name {
