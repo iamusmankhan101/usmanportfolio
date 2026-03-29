@@ -72,6 +72,16 @@ const webProjects = [
     mockup1: '/Screenshot 2026-03-20 160232.png',
     mockup2: '/Screenshot 2026-03-20 160252.png',
   },
+  {
+    icon: '🛍️',
+    title: 'Drap Store',
+    description: 'An e-commerce store offering a curated collection of fashion and lifestyle products with a smooth shopping experience.',
+    color: '#1a0f0a',
+    tags: ['E-Commerce', 'Shopify'],
+    link: 'https://www.drapstore.com',
+    mockup1: '/Screenshot 2026-03-29 232825.png',
+    mockup2: '/Screenshot 2026-03-29 232851.png',
+  },
 ]
 
 const socialProjects = [
