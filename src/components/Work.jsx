@@ -3,6 +3,16 @@ import './Work.css'
 
 const webProjects = [
   {
+    icon: '🏨',
+    title: 'Highway Dream Resort',
+    description: 'A luxury resort booking website featuring room showcases, amenities, and an integrated reservation system.',
+    color: '#3a1a1a',
+    tags: ['WordPress', 'Elementor', 'Fluent Forms'],
+    link: 'https://highwaydreamresort.com',
+    mockup1: '/highway-dream-resort-1.png',
+    mockup2: '/highway-dream-resort-2.png',
+  },
+  {
     icon: '🏠',
     title: 'Optimus Properties',
     description: 'A modern real estate platform with property listings, advanced search filters, and a seamless inquiry system.',
