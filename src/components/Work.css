@@ -212,6 +212,24 @@
   color: #333;
 }
 
+.toggle-btn--creator {
+  text-decoration: none;
+  background: linear-gradient(135deg, #e1306c 0%, #fd5949 60%, #fcaf45 100%);
+  color: #fff !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 14px rgba(225, 48, 108, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.toggle-btn--creator:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(225, 48, 108, 0.45);
+  color: #fff !important;
+}
+
+
 /* Social Media Cards */
 .social-card {
   display: flex;

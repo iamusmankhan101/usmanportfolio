@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Work.css'
 
 const webProjects = [
@@ -169,6 +170,9 @@ function Work() {
           >
             Social Media
           </button>
+          <Link to="/creator" className="toggle-btn toggle-btn--creator">
+            🎬 Content Creation
+          </Link>
         </div>
       </div>
 

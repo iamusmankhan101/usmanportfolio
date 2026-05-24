@@ -190,9 +190,6 @@ export default function Creator() {
       {/* Hero */}
       <header className="creator-hero">
         <div className="creator-hero-content">
-          <p className="creator-eyebrow">
-            Crafting scroll-stopping content for UAE &amp; Pakistan's fastest-growing brands
-          </p>
           <h1 className="creator-hero-title">
             Reels that <span className="creator-gradient-text">convert</span>.<br />
             Stories that <span className="creator-gradient-text">stick</span>.
