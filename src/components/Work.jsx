@@ -103,6 +103,26 @@ const webProjects = [
     mockup1: '/golfclubmarquee-1.jpg',
     mockup2: '/golfclubmarquee-2.jpg',
   },
+  {
+    icon: '💇‍♀️',
+    title: 'Lounge 8 Salon',
+    description: 'A beauty salon website for Lounge 8 in DHA Phase 1, Lahore — with a full searchable treatment menu, live pricing and WhatsApp booking.',
+    color: '#1a2a1f',
+    tags: ['React', 'Vite', 'Tailwind'],
+    link: 'https://www.lounge8.pk',
+    mockup1: '/lounge8-1.jpg',
+    mockup2: '/lounge8-2.jpg',
+  },
+  {
+    icon: '🦴',
+    title: 'Bone Care Centre',
+    description: 'A specialist orthopaedic, spine and joint care clinic website — covering services, consultants and online appointment booking.',
+    color: '#0a1f33',
+    tags: ['React', 'Vite', 'Responsive'],
+    link: 'https://www.bonecarecentre.com',
+    mockup1: '/bonecarecentre-1.jpg',
+    mockup2: '/bonecarecentre-2.jpg',
+  },
 ]
 
 const socialProjects = [
